@@ -39,7 +39,7 @@ public class Utils {
     }
 
     public static void printDuration(long duration, String operation, String set, String fileNUmber) {
-        System.out.println(operation + " | set: " + set + " | data_"+fileNUmber +  " | duration: " + duration);
+        System.out.println(operation + " | set: " + set + " | data_" + fileNUmber + " | duration: " + duration);
         System.out.println("");
     }
 }

@@ -1,8 +1,5 @@
 package org.menuka;
 
-import java.util.ArrayList;
-import java.util.Random;
-
 /******************************************************************************
  *  Compilation:  javac SplayBST.java
  *  Execution:    java SplayBST

@@ -25,9 +25,7 @@ package org.menuka; /***********************************************************
  *
  ******************************************************************************/
 
-import java.util.ArrayList;
 import java.util.NoSuchElementException;
-import java.util.Random;
 
 /**
  * The {@code BST} class represents an ordered symbol table of generic

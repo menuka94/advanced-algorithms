@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b8085ca-b75b-4466-9a3c-dc1ae7333bc3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/menuka/BSTExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/menuka/RedBlackExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/menuka/SplayExecute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/menuka/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/menuka/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/menuka/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/menuka/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBSTExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/menuka/BSTExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/menuka/BSTExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/menuka/RedBlackExecute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/menuka/SplayExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/menuka/SplayBSTExecute.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BSTExecute.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BSTExecute.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/BSTExecute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -31,7 +29,7 @@
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
+            <state relative-caret-position="1532">
               <caret line="170" selection-start-line="170" selection-end-line="170" />
               <folding>
                 <element signature="e#18955#18956#0" expanded="true" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="170">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1116#1117#0" expanded="true" />
@@ -57,20 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedBlackExecute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackExecute.java">
+      <file leaf-file-name="SplayBSTExecute.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayBSTExecute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplayExecute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayExecute.java">
+      <file leaf-file-name="RedBlackBSTExecute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBSTExecute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -80,36 +78,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedBlackBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="726" selection-start-line="726" selection-end-line="726" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplayBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
-              <folding>
-                <element signature="e#6341#6342#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +101,9 @@
       <find>search</find>
       <find>Set1</find>
       <find>BST</find>
+      <find>RedBlackBST st</find>
+      <find>RedBlackBST</find>
+      <find>RB</find>
     </findStrings>
     <replaceStrings>
       <replace>separator</replace>
@@ -143,6 +114,8 @@
       <replace>Set2</replace>
       <replace>RedBlack</replace>
       <replace>RedBlackBST</replace>
+      <replace>RedBlackBST&lt;Long, Integer&gt; st</replace>
+      <replace>SplayBST</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -157,11 +130,14 @@
         <option value="$PROJECT_DIR$/src/main/java/org/menuka/SplayBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/menuka/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/menuka/RedBlackExecute.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/menuka/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/menuka/BST.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/menuka/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/menuka/BSTExecute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/menuka/RedBlackExecute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBSTExecute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/menuka/SplayExecute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/menuka/SplayBSTExecute.java" />
       </list>
     </option>
   </component>
@@ -201,20 +177,14 @@
               <item name="advanced-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced-algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="delete" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advanced-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advanced-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="delete" type="462c0819:PsiDirectoryNode" />
-              <item name="set2" type="462c0819:PsiDirectoryNode" />
+              <item name="insert" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advanced-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced-algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="insert" type="462c0819:PsiDirectoryNode" />
+              <item name="set1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advanced-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +231,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -288,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BSTExecute">
+  <component name="RunManager" selected="Application.SplayBSTExecute">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.menuka.BST" />
       <module name="advanced-algorithms" />
@@ -306,6 +276,36 @@
     </configuration>
     <configuration name="BSTExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.menuka.BSTExecute" />
+      <module name="advanced-algorithms" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.menuka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean compile" />
+      </method>
+    </configuration>
+    <configuration name="RedBlackBSTExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.menuka.RedBlackBSTExecute" />
+      <module name="advanced-algorithms" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.menuka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean compile" />
+      </method>
+    </configuration>
+    <configuration name="SplayBSTExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.menuka.SplayBSTExecute" />
       <module name="advanced-algorithms" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
@@ -363,9 +363,13 @@
     <list>
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.BSTExecute" />
+      <item itemvalue="Application.RedBlackBSTExecute" />
+      <item itemvalue="Application.SplayBSTExecute" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplayBSTExecute" />
+        <item itemvalue="Application.RedBlackBSTExecute" />
         <item itemvalue="Application.BSTExecute" />
         <item itemvalue="Application.BST" />
       </list>
@@ -381,12 +385,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528466013773</updated>
-      <workItem from="1528466019211" duration="13071000" />
+      <workItem from="1528466019211" duration="14109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13071000" />
+    <option name="totallyTimeSpent" value="14109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="696" extended-state="6" />
@@ -403,10 +407,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6025641" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32783884" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23030303" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23030303" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -448,26 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="726" selection-start-line="726" selection-end-line="726" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/insert/set1/data_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-          <folding>
-            <element signature="e#6341#6342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/insert/set1/data_2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -485,12 +469,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/delete/set2/data_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/delete/set2/data_3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/insert/set1/data_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/insert/set2/data_1.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -498,30 +484,34 @@
     <entry file="file://$PROJECT_DIR$/data/delete/set2/data_1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/delete/set2/data_2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/delete/set2/data_3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayExecute.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="330">
+          <caret line="724" column="29" lean-forward="true" selection-start-line="724" selection-start-column="29" selection-end-line="724" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackExecute.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1564">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+          <folding>
+            <element signature="e#6341#6342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="170">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1116#1117#0" expanded="true" />
@@ -534,7 +524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
+        <state relative-caret-position="1532">
           <caret line="170" selection-start-line="170" selection-end-line="170" />
           <folding>
             <element signature="e#18955#18956#0" expanded="true" />
@@ -545,8 +535,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/BSTExecute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/RedBlackBSTExecute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/menuka/SplayBSTExecute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -567,7 +571,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -627,7 +631,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:3.8.1</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,26 +1,28 @@
 package org.menuka;
 
-public class BSTExecute {
+public class SplayBSTExecute {
     public static void main(String[] args) {
-        System.out.println("============ BST ====================");
+        System.out.println("============ Splay ================");
         set("1");
+        set("2");
     }
 
     private static void set(String set) {
-        BST<Long, Integer> st1 = new BST<>();
+        System.out.println("Set: " + set + "\n-------------\n");
+        SplayBST<Long, Integer> st1 = new SplayBST<>();
         for (int j = 1; j <= 3; j++) {
             // insert
-            BSTinsert(st1, set, Integer.toString(j));
+            SplayBSTinsert(st1, set, Integer.toString(j));
 
             // search
-            BSTsearch(st1, set, Integer.toString(j));
+            SplayBSTsearch(st1, set, Integer.toString(j));
 
             // delete
-            BSTdelete(st1, set, Integer.toString(j));
+            SplayBSTdelete(st1, set, Integer.toString(j));
         }
     }
 
-    private static void BSTinsert(BST<Long, Integer> st, String set, String fileNumber) {
+    private static void SplayBSTinsert(SplayBST<Long, Integer> st, String set, String fileNumber) {
         long[] values = Utils.getValuesOfFile("insert", set, fileNumber);
         long starTime = Utils.getTime();
         for (long value : values) {
@@ -31,7 +33,7 @@ public class BSTExecute {
         Utils.printDuration(duration, "insert", set, fileNumber);
     }
 
-    private static void BSTsearch(BST<Long, Integer> st, String set, String fileNumber) {
+    private static void SplayBSTsearch(SplayBST<Long, Integer> st, String set, String fileNumber) {
         long[] values = Utils.getValuesOfFile("search", set, fileNumber);
         long starTime = Utils.getTime();
         for (long value : values) {
@@ -40,16 +42,18 @@ public class BSTExecute {
         long endTime = Utils.getTime();
         long duration = Utils.getDuration(endTime, starTime);
         Utils.printDuration(duration, "search", set, fileNumber);
+
     }
 
-    private static void BSTdelete(BST<Long, Integer> st, String set, String fileNumber) {
+    private static void SplayBSTdelete(SplayBST<Long, Integer> st, String set, String fileNumber) {
         long[] values = Utils.getValuesOfFile("delete", set, fileNumber);
         long starTime = Utils.getTime();
         for (long value : values) {
-            st.delete(value);
+            st.remove(value);
         }
         long endTime = Utils.getTime();
         long duration = Utils.getDuration(endTime, starTime);
         Utils.printDuration(duration, "delete", set, fileNumber);
+
     }
 }
