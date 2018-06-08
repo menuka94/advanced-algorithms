@@ -4,6 +4,7 @@ public class BSTExecute {
     public static void main(String[] args) {
         System.out.println("============ BST ====================");
         set("1");
+        set("2");
     }
 
     private static void set(String set) {
